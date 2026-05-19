@@ -1,0 +1,6 @@
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import naive from "naive-ui";
+import App from "./App.vue";
+import "uno.css";
+createApp(App).use(createPinia()).use(naive).mount("#app");
